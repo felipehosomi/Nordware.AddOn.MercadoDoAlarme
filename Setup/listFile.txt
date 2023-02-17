@@ -1,0 +1,2 @@
+C:\Source\Repos\sps.consultoria.curitiba\Nordware.AddOn.MercadoDoAlarme\Setup\Output\*.exe
+C:\Source\Repos\sps.consultoria.curitiba\Nordware.AddOn.MercadoDoAlarme\Setup\Output\*.ard

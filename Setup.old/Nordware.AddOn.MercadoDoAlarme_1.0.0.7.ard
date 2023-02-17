@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AddOnRegData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SlientInstallation="No" SlientUpgrade="No" Partnernmsp="Nordware" SchemaVersion="3.0" Type="" MultipleVersion="false" OnDemand="" OnPremise="" ExtName="Mercado do Alarme" ExtVersion="1.0.0.7" Contdata="" Partner="Nordware" DBType="MSSQL" ClientType="W">
+  <Validity>
+    <SBOCompatibility>
+      <Version From="" To="" />
+    </SBOCompatibility>
+  </Validity>
+  <Configuration>
+    <Repository>
+      <Properties />
+    </Repository>
+    <Deployment>
+      <Properties />
+    </Deployment>
+    <Assignment>
+      <Properties />
+    </Assignment>
+  </Configuration>
+  <Addons>
+    <Addon Name="" Group="" ForceFlag="" Visible="" AutoAssign="" SelfUpgrd="">
+      <x86 AddonExe="C:\Source\Repos\SPS.Consultoria.Curitiba\Nordware.AddOn.MercadoDoAlarme\Nordware.AddOn.MercadoDoAlarme\bin\Debug\Nordware.AddOn.MercadoDoAlarme.exe" AddonSig="">
+        <Installation>
+          <Files>
+            <File FileName="Antlr3.Runtime.dll">
+              <Actions />
+            </File>
+            <File FileName="ConverterLib_x64.dll">
+              <Actions />
+            </File>
+            <File FileName="Interop.SAPbobsCOM.dll">
+              <Actions />
+            </File>
+            <File FileName="Interop.SAPbouiCOM.dll">
+              <Actions />
+            </File>
+            <File FileName="Newtonsoft.Json.dll">
+              <Actions />
+            </File>
+            <File FileName="Nordware.AddOn.MercadoDoAlarme.Core.dll">
+              <Actions />
+            </File>
+            <File FileName="Nordware.AddOn.MercadoDoAlarme.exe">
+              <Actions />
+            </File>
+            <File FileName="Nordware.AddOn.MercadoDoAlarme.exe.config">
+              <Actions />
+            </File>
+            <File FileName="Sap.Data.Hana.v3.5.dll">
+              <Actions />
+            </File>
+            <File FileName="SBO.Hub.dll">
+              <Actions />
+            </File>
+            <File FileName="Views\FrmItemMasterData.srf">
+              <Actions />
+            </File>
+            <File FileName="Views\FrmSalesDocument.srf">
+              <Actions />
+            </File>
+            <File FileName="Views\FrmSalesProfit.srf">
+              <Actions />
+            </File>
+          </Files>
+        </Installation>
+        <Uninstallation>
+          <Files>
+            <File FileName="Antlr3.Runtime.dll">
+              <Actions />
+            </File>
+            <File FileName="ConverterLib_x64.dll">
+              <Actions />
+            </File>
+            <File FileName="Interop.SAPbobsCOM.dll">
+              <Actions />
+            </File>
+            <File FileName="Interop.SAPbouiCOM.dll">
+              <Actions />
+            </File>
+            <File FileName="Newtonsoft.Json.dll">
+              <Actions />
+            </File>
+            <File FileName="Nordware.AddOn.MercadoDoAlarme.Core.dll">
+              <Actions />
+            </File>
+            <File FileName="Nordware.AddOn.MercadoDoAlarme.exe">
+              <Actions />
+            </File>
+            <File FileName="Nordware.AddOn.MercadoDoAlarme.exe.config">
+              <Actions />
+            </File>
+            <File FileName="Sap.Data.Hana.v3.5.dll">
+              <Actions />
+            </File>
+            <File FileName="SBO.Hub.dll">
+              <Actions />
+            </File>
+            <File FileName="Views\FrmItemMasterData.srf">
+              <Actions />
+            </File>
+            <File FileName="Views\FrmSalesDocument.srf">
+              <Actions />
+            </File>
+            <File FileName="Views\FrmSalesProfit.srf">
+              <Actions />
+            </File>
+          </Files>
+        </Uninstallation>
+      </x86>
+      <x64 AddonExe="" AddonSig="">
+        <Installation>
+          <Files />
+        </Installation>
+        <Uninstallation>
+          <Files />
+        </Uninstallation>
+      </x64>
+    </Addon>
+  </Addons>
+  <XApps>
+    <XApp Name="" Path="" FileName="" />
+  </XApps>
+  <UDQs>
+    <UDQ udqname="">
+      <Hana FileName="" />
+    </UDQ>
+  </UDQs>
+</AddOnRegData>
