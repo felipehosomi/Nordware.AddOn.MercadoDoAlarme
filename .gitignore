@@ -348,3 +348,5 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/Setup/Nordware.AddOn.MercadoDoAlarme_v1.0.1.2/X86Client
+/Setup/Nordware.AddOn.MercadoDoAlarme_v1.0.1.2

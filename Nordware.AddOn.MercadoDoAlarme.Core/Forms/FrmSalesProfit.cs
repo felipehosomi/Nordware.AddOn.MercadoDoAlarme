@@ -19,6 +19,7 @@ namespace Nordware.AddOn.MercadoDoAlarme.Core.Forms
             SalesProfitBLL salesProfitBLL = new SalesProfitBLL();
             List<ProfitModel> profitList = salesProfitBLL.GetSalesProfit(list);
 
+            Form.DataSources.DataTables.Item("dt_Profit").CreateColumns(typeof(ProfitModel));
             Form.DataSources.DataTables.Item("dt_Profit").FillTable(profitList);
             Grid gr_Profit = Form.Items.Item("gr_Profit").Specific as Grid;
             gr_Profit.AutoResizeColumns();

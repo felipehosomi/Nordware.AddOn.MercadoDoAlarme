@@ -20,6 +20,8 @@ namespace Nordware.AddOn.MercadoDoAlarme
             var sboApp = new SBOApp(args[0], $"{Application.StartupPath}\\Nordware.AddOn.MercadoDoAlarme.Core.dll");
             sboApp.InitializeApplication();
 
+            SBOApp.AutoTranslateHana = false;
+
             InitializeBLL.Initialize();
             var oListener = new SBO.Hub.Services.Listener();
             var oThread = new Thread(new ThreadStart(oListener.startListener));
